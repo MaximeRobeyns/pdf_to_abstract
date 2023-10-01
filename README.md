@@ -1,5 +1,8 @@
 <div align="center">
 <h1>PDF to Abstract</h1>
+
+https://github.com/MaximeRobeyns/pdf_to_abstract/assets/17814194/c5db24b0-9784-4ebe-935c-3d9fd7cd0bef
+  
 </div>
 
 A web extension to redirect from the pdf page to the abstract page for academic websites.
