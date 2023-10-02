@@ -4,13 +4,29 @@
 
 A web extension to redirect from the pdf page to the abstract page for academic websites.
 
-## Usage
+## Installation
 
-The extensions are currently undergoing review on the Chrome and Firefox extension stores.
+### Chrome
 
-To install these locally, run `./release.sh` to build both the Chrome and
-Firefox versions, and unzip the version you'd like to use. Then,
+The chrome extension is still undergoing review on the Chrome extension store.
 
-**For Chrome:** Go to `chrome://extensions/` and enable developer mode. Then, click "Load unpacked" and select the unzipped `build/pdf2abstract_chrome.zip` folder.
+For a local chrome installation, run
+```sh
+./release.sh
+cd build && unzip pdf2abstract_chrome.zip
+```
+then go to `chrome://extensions/`, enable developer mode, click "Load unpacked" and select the build folder.
 
-**For Firefox:** Go to `about:debugging#/runtime/this-firefox` and click "Load Temporary Add-on...". Then, select the unzipped `build/pdf2abstract_ff.zip` folder.
+### Firefox
+
+Install the [Firefox Add-on](https://addons.mozilla.org/en-GB/firefox/addon/pdf-to-abstract-redirection/) from the store.
+
+For a local installation for development, run
+```sh
+./release.sh
+cd build && unzip pdf2abstract_ff.zip
+```
+then go to `about:debugging#/runtime/this-firefox`, click "Load Temporary
+Add-on..." and select any file from the unzipped `build/pdf2abstract_ff.zip`
+file.
+
