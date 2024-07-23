@@ -2,7 +2,7 @@
 <h1>PDF to Abstract</h1>
 
 https://github.com/MaximeRobeyns/pdf_to_abstract/assets/17814194/c5db24b0-9784-4ebe-935c-3d9fd7cd0bef
-  
+
 </div>
 
 A web extension to redirect from the pdf page to the abstract page for academic websites.
@@ -11,7 +11,7 @@ A web extension to redirect from the pdf page to the abstract page for academic 
 
 ### Chrome
 
-The chrome extension is still undergoing review on the Chrome extension store.
+Install the [Chrome Add-on](https://chromewebstore.google.com/detail/pdf-to-abstract-redirecti/jjgcjdajdnhjjeiahjibfjdohcefddhe) from the store.
 
 For a local chrome installation, run
 ```sh
